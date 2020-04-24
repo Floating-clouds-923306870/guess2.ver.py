@@ -21,11 +21,11 @@ while i==0:
     i=检验(选数)
     n+=1
 
-w=open("游戏记录录.py")
+w=open("游戏记录.py")
 ww=w.read()
 r=ww.split("\n") 
 w.close()   
-w=open("游戏记录录.py","a")
+w=open("游戏记录.py","a")
 w.write( "\n"+str(n))
 w.close()
 
